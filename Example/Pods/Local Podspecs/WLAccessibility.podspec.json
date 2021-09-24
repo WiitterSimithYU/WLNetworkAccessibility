@@ -1,0 +1,22 @@
+{
+  "name": "WLAccessibility",
+  "version": "0.1.0",
+  "summary": "A short description of WLAccessibility.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Weiliam 余/WLAccessibility",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Weiliam 余": "1979312258@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Weiliam 余/WLAccessibility.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WLAccessibility/Classes/**/*"
+}

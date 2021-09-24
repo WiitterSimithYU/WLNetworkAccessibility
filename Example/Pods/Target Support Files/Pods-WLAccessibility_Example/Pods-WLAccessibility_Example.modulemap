@@ -1,0 +1,6 @@
+framework module Pods_WLAccessibility_Example {
+  umbrella header "Pods-WLAccessibility_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

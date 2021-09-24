@@ -1,0 +1,16 @@
+PODS:
+  - WLAccessibility (0.1.0)
+
+DEPENDENCIES:
+  - WLAccessibility (from `../`)
+
+EXTERNAL SOURCES:
+  WLAccessibility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLAccessibility: eacc3a0bd3b039a0b77beaf33d34d68d89d53bcf
+
+PODFILE CHECKSUM: b7f4c0a8d3bf87f7cee9c7ea640fea998a5a7693
+
+COCOAPODS: 1.10.1

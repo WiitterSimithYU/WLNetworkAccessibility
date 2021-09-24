@@ -1,0 +1,6 @@
+framework module WLAccessibility {
+  umbrella header "WLAccessibility-umbrella.h"
+
+  export *
+  module * { export * }
+}
