@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9065988290B850A0D2AF73D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9065988290B850A0D2AF73D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9BC015CD0226E5A561BDA892 /* Pods_WLAccessibility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLAccessibility_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF385FC16C4A9DFAE2DC6F2 /* Pods_WLAccessibility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLAccessibility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC22F661BB75E32C83AFE730 /* Pods-WLAccessibility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLAccessibility_Tests.release.xcconfig"; path = "Target Support Files/Pods-WLAccessibility_Tests/Pods-WLAccessibility_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C6064C321E7590C905080607 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E3932E3E58E8C554B27AD4E9 /* WLAccessibility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WLAccessibility.podspec; path = ../WLAccessibility.podspec; sourceTree = "<group>"; };
+		C6064C321E7590C905080607 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3932E3E58E8C554B27AD4E9 /* WLAccessibility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLAccessibility.podspec; path = ../WLAccessibility.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				19E50E1240C9FD5768C5ED72 /* Pods-WLAccessibility_Tests.debug.xcconfig */,
 				AC22F661BB75E32C83AFE730 /* Pods-WLAccessibility_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
